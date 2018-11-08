@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { owners_id } = require('../../config.json');
+const { owners_id } = require('../../../config.json');
 
 exports.run = async(client, message, args, color, prefix) => {
   

@@ -13,7 +13,7 @@ class Bot extends Client {
     });
     
     this.util = require('./util.js');
-    this.config = require('../config.json');
+    this.config = require('../../config.json');
     this.eco = require('discord-economy');
     this.level = require('discord-leveling');
     this.db = new db.table('commandUsage');

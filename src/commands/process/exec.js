@@ -1,6 +1,6 @@
 const { exec } = require('child_process');
 const { RichEmbed } = require('discord.js');
-const { owners_id } = require("../../config.json");
+const { owners_id } = require("../../../config.json");
 
 exports.run = (client, message, args, color) => {
   owners_id.forEach(async function(owner) {

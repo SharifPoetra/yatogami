@@ -1,4 +1,4 @@
-const { owners_id } = require("../../config.json");
+const { owners_id } = require("../../../config.json");
 const Discord = require("discord.js");
 const { post } = require('node-superfetch');
 const path = require("path");

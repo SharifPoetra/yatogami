@@ -11,7 +11,7 @@ exports.run = async(client, message, args, color, prefix) => {
     message.reply('You are betting more than you have!');
     } else {
   const m = await client.eco.Coinflip(message.author.id, guess, args[1]);
-  message.channel.send(`You ${m.output} ${client.config.coin_icon}${args[1]}, Your balance now: ${client.config.coin_icon}${m.newbalance} ${client.config.coin}`);
+  message.channel.send(`You ${m.output} ${client.config.coin_icon}${args[1]}, Your ${client.config.coin} now: ${client.config.coin_icon}${m.newbalance} ${client.config.coin}`);
     }
     })
   } catch (e) {

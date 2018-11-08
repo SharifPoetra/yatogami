@@ -25,7 +25,7 @@ Uptime         : ${client.util.parseDur(client.uptime)}
 Users          : ${botUsers.toLocaleString()}
 Channels       : ${botChannels.toLocaleString()}
 Servers        : ${botGuilds.toLocaleString()}
-Library        : Discord.js v${Discord.version}
+Discord.js     : v${Discord.version}
 Node           : ${process.version}
 Version Bot    : v${client.version}
 Commands ran   : ${client.db.fetch('commandUsage')} 

@@ -33,7 +33,7 @@ CPU Usage      : ${percent.toFixed(2)} %
 Memory Usage   : ${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)} MB\`\`\``)
   .addField('📌 Owners', `${client.config.owners_id.map(x => `${client.users.get(x).username}#${client.users.get(x).discriminator}`).join('•\n')}`) 
 	.addField('📌 Dependencies', Object.entries(dependencies).map(x => parseDependencies(x[0], x[1])).join(', '));
-      message.channel.send(embed) 
+      message.channel.send('test', {embed: embed}) 
   })  
 }
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.0.4
+- Add NodeJS 11 support [#1072](https://github.com/mapbox/node-sqlite3/pull/1072)
+- Add electron osx 3.0.0 support [#1071](https://github.com/mapbox/node-sqlite3/pull/1071)
+
+## 4.0.3
+
+- Increase electron/osx binary coverage [#1041](https://github.com/mapbox/node-sqlite3/pull/1041) (@kewde)
+
 ## 4.0.2
 
 - Fixed HTTP proxy support by using `request` over `needle` in node-pre-gyp

@@ -1,0 +1,11 @@
+sudo: false
+
+language: node_js
+
+node_js:
+  - 'lts/*'
+
+install: npm install eslint --global
+
+script:
+- npm test

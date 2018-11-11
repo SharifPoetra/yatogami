@@ -1,4 +1,4 @@
-const PREFIX = require('../config.json').bot_prefix;
+const PREFIX = require('../../config.json').bot_prefix;
 
 module.exports = async (client, message) => {
  

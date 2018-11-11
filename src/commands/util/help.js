@@ -1,5 +1,5 @@
 const { RichEmbed } = require('discord.js');
-const { owners_id, bot_prefix } = require('../../config.json')
+const { owners_id, bot_prefix } = require('../../../config.json')
 
 exports.run = async (client, message, args, color) => {
   let prefix = bot_prefix;

@@ -1,4 +1,4 @@
-const { bot_prefix, embed_color } = require('../config.json');
+const { bot_prefix, embed_color } = require('../../config.json');
 const { Collection, RichEmbed } = require('discord.js');
 const cooldowns = new Collection();
 const cooldownAns = require('./cooldownAns.json');

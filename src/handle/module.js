@@ -6,7 +6,6 @@ module.exports = client => {
     client.aliases = new Discord.Collection();
     client.helps = new Discord.Collection();
  
-  //function loadCmds () {
     fs.readdir('./src/commands/', (err, categories) => {
         if (err) console.log(err);
         console.log(`Found total ${categories.length} category.`);
@@ -21,7 +20,6 @@ module.exports = client => {
                 if (err) console.log(err);
                 let commands = new Array();
                 files.forEach(file => {
-                    //delete require.cache[require.resolve(`../commands/${category}/${file}`)];
                     if (!file.endsWith('.js')) return;
                     let prop = require(`../commands/${category}/${file}`);
                     let cmdName = file.split('.')[0];
@@ -35,4 +33,3 @@ module.exports = client => {
         });
     });
  }
-//} 

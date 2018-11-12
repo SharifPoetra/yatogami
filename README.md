@@ -1,4 +1,4 @@
-# Yatogami Tohka <img src="https://cdn.discordapp.com/avatars/507318001242996739/75524ecb9c990411c08be2b65224e2c5.png?size=128" align="left">
+# Yatogami Tohka <img src="https://cdn.discordapp.com/avatars/507318001242996739/75524ecb9c990411c08be2b65224e2c5.png?size=256" align="right">
 > .
 
 ## Author 

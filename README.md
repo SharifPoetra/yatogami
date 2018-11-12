@@ -1,3 +1,9 @@
+# Yatogami Tohka <img src="https://cdn.discordapp.com/avatars/507318001242996739/75524ecb9c990411c08be2b65224e2c5.png?size=2048" align="right">
+> .
+## Author 
+**Yatogami** © [Sharif](https://github.com/SharifPoetra/yatogami). 
+Authored and maintained by Sharif.
+> Github [@Sharif](https://github.com/SharifPoetra)
 
 # Licensing 
 

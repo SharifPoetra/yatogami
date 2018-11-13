@@ -1,3 +1,10 @@
+/*
+(MIT LICENSE)
+*/
+/*
+All Following Code by OwO#8287
+*/
+
 const Discord = require("discord.js");
 const cpuStat = require('cpu-stat');
 const { dependencies } = require('../../../package.json');

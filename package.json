@@ -1,35 +1,39 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "this-base-right",
-  "version": "0.8.1",
-  "description": "A simple Discord bot written in discord.js.",
+  "name": "yatogami",
+  "version": "1.8.3",
+  "description": "Yatogami, discord bot simple to use written in discord.js",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
-  },
-  "dependencies": {
-    "cpu-stat": "^2.0.1",
-    "discord-economy": "^1.1.3",
-    "discord-leveling": "^1.0.0",
-    "discord.js": "^11.4.2",
-    "express": "^4.16.3",
-    "fs": "^0.0.2",
-    "node-kitsu": "^1.1.1",
-    "node-superfetch": "^0.1.7",
-    "osunext-sig": "^1.0.3",
-    "parse-ms": "^2.0.0",
-    "quick.db": "^7.0.0-b15"
-  },
-  "engines": {
-    "node": "10.x"
+    "test": "node ."
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "type": "git",
+    "url": "git+https://github.com/SharifPoetra/yatogami.git"
   },
-  "license": "MIT",
   "keywords": [
-    "node"
-  ]
+    "discord-bot"
+  ],
+  "author": "Sharif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SharifPoetra/yatogami/issues"
+  },
+  "homepage": "https://github.com/SharifPoetra/yatogami#readme",
+  "dependencies": {
+    "canvas": "github:Automattic/node-canvas#92b192447e9b9ae98da0f801e4e34afdd1dc1ef8",
+    "canvas-constructor": "github:kyranet/canvasConstructor",
+    "cpu-stat": "^2.0.1",
+    "discord-economy": "^1.1.4",
+    "discord-leveling": "^1.0.0",
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.1.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "node-kitsu": "^1.1.1",
+    "node-superfetch": "^0.1.9",
+    "osunext-sig": "^1.0.3",
+    "parse-ms": "^2.0.0",
+    "quick.db": "^7.0.0-b16"
+  }
 }

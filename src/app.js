@@ -8,4 +8,4 @@ const client = new Client({
 require('./handle/events')(client);
 require('./handle/module')(client);
 
-client.login(client.config.env.TOKEN);
+client.login(process.env.TOKEN);

@@ -1,8 +1,8 @@
+require('dotenv').config()
 const { ShardingManager } = require('discord.js');
-const config = require('../config.json');
 
 const shards = new ShardingManager('./src/app.js', {
-    token: config.env.TOKEN,
+    token: process.env.TOKEN,
     totalShards: 'auto' 
 });
 

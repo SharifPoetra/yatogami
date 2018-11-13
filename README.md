@@ -5,8 +5,9 @@
 
 **Yatogami** © [Sharif](https://github.com/SharifPoetra/yatogami). 
 
-Authored and maintained by Sharif.
+Authored and maintained by Sharif and OwO.
 > Github [@Sharif](https://github.com/SharifPoetra)
+> Github [@OwO](https://github.com/youKnowOwO)
 
 # Licensing 
 

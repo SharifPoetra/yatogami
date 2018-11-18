@@ -26,7 +26,7 @@ module.exports = async client => {
   function randStatus() {
     let status = [
       `with ${botUsers} users`,
-      `k.help for help`,
+      `y!help for help`,
       `in ${botGuilds} guilds`, 
       `Hye, Hallo, Hehe`
      ];

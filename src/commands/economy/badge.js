@@ -4,7 +4,7 @@ const db = require('quick.db');
 
 exports.run = async(client, message, args, color, prefix) => {
   
-  if(message.author.id !== '475230849239875584') return message.channel.send('Maintenance...');
+  //if(message.author.id !== '475230849239875584') return message.channel.send('Maintenance...');
   if(!args.length) return args.missing(message, 'No method provided', client.commands.get('badge').help);
   let amount = 300;
   if (args[0] === 'buy') {

@@ -4,6 +4,33 @@ const yes = ['yes', 'y', 'ye', 'yeah', 'yup', 'yea', 'ya'];
 const no = ['no', 'n', 'nah', 'nope', 'nop'];
 
 class Util {
+	
+	
+	static async awaitPlayers(msg, max, min, { time = 30000, dmCheck = false } = {}) {
+		const joined = [];
+		joined.push(msg.author.id);
+		const filter = res => {
+			if (res.author.bot) return false;
+			if (joined.includes(res.author.id)) return false;
+			if (res.content.toLowerCase() !== 'join game') return false;
+			joined.push(res.author.id);
+			res.react('✅').catch(() => null);
+			return true;
+		};
+		const verify = await msg.channel.awaitMessages(filter, { max, time });
+		verify.set(msg.id, msg);
+		if (dmCheck) {
+			for (const message of verify.values()) {
+				try {
+					await message.author.send('Hi! Just testing that DMs work, pay this no mind.');
+				} catch (err) {
+					verify.delete(message.id);
+				}
+			}
+		}
+		if (verify.size < min) return false;
+		return verify.map(message => message.author);
+	}
   
   static userResolvable(input, message){
 	const userPatern = /^(?:<@!?)?([0-9]+)>?$/;

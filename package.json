@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/SharifPoetra/yatogami#readme",
   "dependencies": {
-    "canvas": "github:Automattic/node-canvas#92b192447e9b9ae98da0f801e4e34afdd1dc1ef8",
+    "canvas": "^2.5.0",
     "canvas-constructor": "github:kyranet/canvasConstructor",
     "common-tags": "^1.8.0",
     "cpu-stat": "^2.0.1",

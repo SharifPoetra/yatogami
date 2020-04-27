@@ -17,7 +17,7 @@ exports.run = async (client, message, args) => {
     const married = await db.fetch(`marry_${message.author.id}`) 
     if(married) return message.channel.send('Thats not good, You can\'t marry two times.');
   
-  message.channel.send(`${user}, **${message.author.username}** is asking to marry you! Type \`yes\` to accept it or \`no\` to reject it! Answer in 30 seconds`)
+  await message.channel.send(`${user}, **${message.author.username}** is asking to marry you! Type \`yes\` to accept it or \`no\` to reject it! Answer in 30 seconds`)
   const hit = await verifyText(message.channel, user)
   if(hit) {
   db.set(`marry_${message.author.id}`, user.tag)
@@ -57,4 +57,4 @@ exports.help = {
   description: 'Allow you to marry wity someone, also thats need a verify :p', 
   usage: 'marry @SomeOne', 
   example: ['marry @SomeLikeItHot'] 
-} 
+}

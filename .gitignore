@@ -4,3 +4,7 @@ node_modules/
 
 # .env
 .env
+
+# data
+database.sqlite
+json.sqlite

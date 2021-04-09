@@ -35,7 +35,7 @@
     "node-kitsu": "^1.1.1",
     "node-superfetch": "^0.1.9",
     "osunext-sig": "^1.0.3",
-    "parse-ms": "^2.0.0",
+    "parse-ms": "^3.0.0",
     "quick.db": "^7.0.0-b16"
   },
   "engines": {

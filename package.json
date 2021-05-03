@@ -33,7 +33,7 @@
     "moment": "^2.22.2",
     "moment-duration-format": "^2.2.2",
     "node-kitsu": "^1.1.1",
-    "node-superfetch": "^0.1.9",
+    "node-superfetch": "^0.2.3",
     "osunext-sig": "^1.0.3",
     "parse-ms": "^2.0.0",
     "quick.db": "^7.0.0-b16"

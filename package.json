@@ -28,7 +28,7 @@
     "discord-economy": "^1.1.4",
     "discord-leveling": "^1.0.0",
     "discord.js": "^11.6.4",
-    "dotenv": "^8.2.0",
+    "dotenv": "^9.0.2",
     "fs": "0.0.1-security",
     "moment": "^2.22.2",
     "moment-duration-format": "^2.2.2",
